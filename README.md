@@ -29,7 +29,7 @@ A list of all aims:
 14. GPIO shielding 
 
 
-#1. Housing
+# 1. Housing
 
 Other similar projects are using a Pelican 1200 case. While definitely a great case in terms of durability and level of protection it has its limitations. One is its size - being a bit over 230mm wide it is extremely hard to find a suitable for it keyboard in a sensible price range. Another con is the steep price tag of this case. Given that I'm operating on a budget, it was only logical to look for a more cost-effective solution which also offers a larger width. The chosen case is https://itt-shop.bg/hermetichen-kufar-za-instrumenti-yato-339-h-292-h-152-mm-10038422. It is 339mm wide with useable internal width of 
 
@@ -39,7 +39,7 @@ To provide effective shielding, the copper insulation needs to be grounded. For 
 
 Both bezels are machined out of sheet aluminum. This way they act as internal structural supports for the case, all while serving as heat radiators for those components that produce some significant quantities of heat. Those components are glued directly onto the aluminum panels. 
 
-#2. Input devices
+# 2. Input devices
 
 All input devices are going to be wired. The reason is that wireless ones would require additinal batteries which might not be easily available. Also wireless devices tend to require more energy overall than wired ones. 
 
