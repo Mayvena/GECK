@@ -21,12 +21,19 @@ A list of all aims:
 6. Built-in display
 7. Built-in keyboard
 8. Built-in network capabilities - both wireless and wired
-9. GPS
-10. Software defined radio
-11. USB hub
-12. Encyclopedia
-13. Survival/engineering guides/articles/tutorials
-14. GPIO shielding 
+9. Built-in software-defined radio adapter
+10. GPS
+11. Software defined radio
+12. USB hub
+13. Encyclopedia
+14. Survival/engineering guides/articles/tutorials
+15. GPIO shielding 
+
+Optional features:
+1. Waterproof even when open
+2. Built-in housing for external accessories - like antenna for the SDR, power adapter etc.
+3. Solar/crank generator
+4. MOLLE webbing for attaching it to a plate carrier and/or to attach external pouches to its housing
 
 
 ## 1. Housing
