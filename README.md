@@ -52,6 +52,9 @@ All input devices are going to be wired. The reason is that wireless ones would 
 
 ### Keyboard
 
+Found a Keysonic ACK-540U+ mini keyboard with integrated touchpad:
+https://www.amazon.co.uk/Keysonic-ACK-540U-Keyboard-Integrated-Touchpad/dp/B0013DFJA4
+This solves all mouse considerations as well.
 
 ### Mouse
 
