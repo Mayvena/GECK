@@ -63,7 +63,38 @@ Third option is to use an external usb touchpad. Its slim form factor makes it c
 
 Fourth option is a DIY solution, utilizing an analog joystick through an MCP3008 ADC/SPI (https://grantwinney.com/connecting-an-analog-joystick-to-the-raspberry-pi-and-using-it-with-an-rgb-led-to-simulate-a-color-wheel/) This solution is a bit unconventional, but as far as cool factor goes it is the total winner. Also it is the cheapest solution, cheaper even than a conventional mouse. 
 
+## 3. Display
+
+In an attempt to keep pricetag as low as possible, I went on and bought a used 15" LCD display. However it didn't fit in the case for as low as a few milimeters. This made me realize I actually didn't need that large display for this build and would actually benefit from a smaller one that would allow to have some bezel space for connectors. Currently I'm considering using a 7" 1024x600px HDMI display
+
+## 4. Storage
+
+## 5. Connectivity
+
+The project aims to be as versatile as possible, since it would be impossible to predict how exactly the device will need to be used. This means it would need as many types of connectivity properties as possible. Apart from direct device-to-device connectivity, the GECK will attempt to provide as wider communication capabilities as possible, including satellite and shortwave. 
+
+### USB connection
+
+For both internal and external connectivity the device will have a built-in powered USB hub that will draw power from either the internal battery or external power source (most likely selected with a switch). Most likely the needed ports will be around 6 or 7 (including one or two external ports).
+
+### SATA/PATA/IDE connection
+
+Probably will be provided in the form of a SATA/PATA/IDE USB adapter as an accessory. Likely stored in an external accessory pouch.
+
+### GPIO connector
+
+The RPi (BananaPi in this case) GPIO connector provides quite a wide variety of connectivity options. It may be useful to provide an interface to it (probably via some kind of large aircraft-type connector) along with a set of cable adapters that would allow it to be used as paralel, serial or custom connection interface
+
+### Ethernet
+
+The device has one Ethernet port (Ethernet extension for the Pi mounted on the front panel). Additionally it contains a built-in Ethernet switch that can independently be powered on and off, and has a set of patch cables included in the external accessories pouch.
+
+### Wi-Fi
+
+Since the device shell is EM shielded, 
+
+
 ### Some further inspiration
 
 https://hackaday.io/project/174301-raspberry-pi-sdr-cyberdeck
-
+https://www.pd3rfr.nl/experimenten/raspberry-pi/rpi-als-eenvoudige-ham-transceiver
