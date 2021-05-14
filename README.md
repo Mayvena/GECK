@@ -36,6 +36,11 @@ Optional features:
 4. MOLLE webbing for attaching it to a plate carrier and/or to attach external pouches to its housing
 
 
+## 0. Core
+
+The core of the device is a BananaPi Zero W. Its small form factor
+
+
 ## 1. Housing
 
 Other similar projects are using a Pelican 1200 case. While definitely a great case in terms of durability and level of protection it has its limitations. One is its size - being a bit over 230mm wide it is extremely hard to find a suitable for it keyboard in a sensible price range. Another con is the steep price tag of this case. Given that I'm operating on a budget, it was only logical to look for a more cost-effective solution which also offers a larger width. The chosen case is https://itt-shop.bg/hermetichen-kufar-za-instrumenti-yato-339-h-292-h-152-mm-10038422. It is 339mm wide with useable internal width of 
@@ -96,8 +101,11 @@ The device has one Ethernet port (Ethernet extension for the Pi mounted on the f
 
 ### Wi-Fi
 
-Since the device shell is EM shielded, 
+Since the device shell is EM shielded, there's a SMA coupler on the front panel for a Wi-Fi antenna. It is directly connected to the microSMA coupler on the BananaPi.
 
+### Radio
+
+The device has a RTL-SDR module built in it. It provides an antenna interface (external antenna included in the accessories pouch) and with the provided software allows the device to be used as a Software Defined Radio. With some additions (still need researching) it will allow useage as a HAM radio transceiver or
 
 ### Some further inspiration
 
