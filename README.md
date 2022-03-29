@@ -43,17 +43,17 @@ The core of the device is a BananaPi Zero W. Its small form factor
 
 ## 1. Housing
 
-Other similar projects are using a Pelican 1200 case. While definitely a great case in terms of durability and level of protection it has its limitations. One is its size - being a bit over 230mm wide it is extremely hard to find a suitable for it keyboard in a sensible price range. Another con is the steep price tag of this case. Given that I'm operating on a budget, it was only logical to look for a more cost-effective solution which also offers a larger width. The chosen case is https://itt-shop.bg/hermetichen-kufar-za-instrumenti-yato-339-h-292-h-152-mm-10038422. It is 339mm wide with useable internal width of 
+Other similar projects are using a Pelican 1200 case. While definitely a great case in terms of durability and level of protection it has its limitations. One is its size - being a bit over 230mm wide it is extremely hard to find a suitable for it keyboard in a sensible price range. Another con is the steep price tag of this case. Given that I'm operating on a budget, it was only logical to look for a more cost-effective solution which also offers a larger width. The chosen case is https://itt-shop.bg/hermetichen-kufar-za-instrumenti-yato-339-h-292-h-152-mm-10038422. It is 339mm wide with useable internal width of XXXmm.
 
 I have decided to use copper tape for EMP shielding of the case. This would mean however that it would be effectively shielded from WiFi as well. This means that there needs to be an external antenna for the WiFi. It is mounted on the display bezel and needs to be lifted upon opening the case. 
 
 To provide effective shielding, the copper insulation needs to be grounded. For this purpose a part of the waterproofing gasket has been lifted, a strip of copper foil - glued in the gasket bed in a way that leaves it partially outside when lid is closed, and the gasket is glued back on top of it, effectively restoring the waterproof seal. 
 
-Both bezels are machined out of sheet aluminum. This way they act as internal structural supports for the case, all while serving as heat radiators for those components that produce some significant quantities of heat. Those components are glued directly onto the aluminum panels. 
+Both bezels are machined out of sheet aluminum. This way they act as internal structural supports for the case, all while serving as heat radiators for those components that produce some significant quantities of heat. Those components are glued directly onto the aluminum panels with thermal conductive pads. 
 
 ## 2. Input devices
 
-All input devices are going to be wired. The reason is that wireless ones would require additinal batteries which might not be easily available. Also wireless devices tend to require more energy overall than wired ones. 
+All input devices are going to be wired. The reason is that wireless ones would require additional batteries which might not be easily available. At the same time wireless devices tend to require more energy overall than wired ones. 
 
 ### Keyboard
 
@@ -78,6 +78,8 @@ See above
 In an attempt to keep pricetag as low as possible, I went on and bought a used 15" LCD display. However it didn't fit in the case for as low as a few milimeters. This made me realize I actually didn't need that large display for this build and would actually benefit from a smaller one that would allow to have some bezel space for connectors. Currently I'm considering using a 7" 1024x600px HDMI display
 
 ## 4. Storage
+
+At the moment I'm considering a RAID array of micro SD cards. This will keep both energy requirements and physical space requirements low, all while allowing them to be encapsulated in epoxy resin for added durability and water resistance.
 
 ## 5. Connectivity
 
