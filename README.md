@@ -109,6 +109,10 @@ Since the device shell is EM shielded, there's a SMA coupler on the front panel 
 
 The device has a RTL-SDR module built in it. It provides an antenna interface (external antenna included in the accessories pouch) and with the provided software allows the device to be used as a Software Defined Radio. With some additions (still need researching) it will allow useage as a HAM radio or a CB transceiver.
 
+### GPS
+
+Currently provided via a GPS USB dongle. I will attempt to have it kind of "built-in", having it attached to a foldable mast.
+
 ### Some further inspiration
 
 https://hackaday.io/project/174301-raspberry-pi-sdr-cyberdeck
