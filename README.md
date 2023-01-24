@@ -38,7 +38,7 @@ Optional features:
 
 ## 0. Core
 
-The core of the device is a BananaPi Zero W. Its small form factor
+The core of the device is a BananaPi Zero W. Its small form factor (half the size of a RPi and half its thickness) and the provided onboard connector for an external WiFi antenna make it very suitable for this particular purpose.
 
 
 ## 1. Housing
